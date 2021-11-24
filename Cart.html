@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart - Legin Clothing</title>
+        <link rel="icon" type="image/png" href="images/leginL.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="bgsolid">
+      <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <a href="HomePage.html"><img src="images/legin.png" width="125px"></a>
+            </div>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Product-page1.html">Products</a></li>
+                <li><a href="Aboutus.html">About</a></li>
+                <li><a href="Contacts.html">Contact</a></li>
+                <li><a href="Account.html">Account</a></li>
+              </ul>
+            </nav>
+            <a href="Cart.html"><img src="images/cart.png" width="25px" height="25px"></a>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" width="25px" class="menu-icon" onclick="menutoggle()">
+          </div>
+        </div>
+      </div>
+
+<!---------Cart Items--------->
+      <div class="small-container cart-page" >
+
+            <table>
+              <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+              </tr>
+              <tr>
+                <td>
+                    <div class="cart-info">
+                        <a href="Product-details.html"><img src="images/darvs-gallery-1.jpg" ></a>
+                        <div>
+                            <p>LEGIN PREMIUM TEE</p>
+                            <medium>Price: PHP 599.00 - PHP 200.00 </medium>
+                            <br>
+                            <a class="ana" href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>PHP 399.00</td>
+              </tr>
+              <tr>
+                <td>
+                    <div class="cart-info">
+                        <a href="Product-details21.html"><img src="images/mask1-gallery-2.jpg" ></a>
+                        <div>
+                            <p>LEGIN ARMY GREEN MASK</p>
+                            <size>PHP 149.00</size>
+                            <br>
+                            <a class="ana" href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>PHP 149.00</td>
+              </tr>
+              <tr>
+                <td>
+                    <div class="cart-info">
+                        <a href="Product-details10.html"><img src="images/can-gallery-1.jpg" ></a>
+                        <div>
+                            <p>LEGIN JACKET GTA V EDITION</p>
+                            <large>Price: PHP 699.00 - PHP 149.00 </large>
+                            <br>
+                            <a class="ana" href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>PHP 550.00</td>
+              </tr>
+              <tr>
+                <td>
+                    <div class="cart-info">
+                        <a href="Product-details15.html"><img src="images/eman-gallery-1.jpg" ></a>
+                        <div>
+                            <p>LEGIN CRIS BLACK SHORTS</p>
+                            <large>Price: PHP 299.00 - PHP 50.00 </large>
+                            <br>
+                            <a class="ana" href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>PHP 249.00</td>
+              </tr>
+            </table>
+
+            <div class="total-price">
+
+                <table>
+                  <tr>
+                    <td>Subtotal</td>
+                    <td>PHP 1347.00</td>
+                  </tr>
+                  <tr>
+                    <td>Shipping fee</td>
+                    <td>PHP 50.00</td>
+                  </tr>
+                  <tr>
+                    <td>Shipping fee discount</td>
+                    <td>PHP -50.00</td>
+                  </tr>
+                  <tr>
+                    <td>Total</td>
+                    <td>PHP 1347.00</td>
+
+                  </tr>
+
+                </table>
+
+            </div>
+            <a class="button checkout"> Checkout</a>
+      </div>
+
+      <!------------- Site footer ------------->
+       <footer class="site-footer">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-6 col-md-3">
+               <h6>Models</h6>
+               <ul class="footer-links">
+                 <li><a href="https://www.facebook.com/Pinakagwapo.kahit.kelan">Francis</a></li>
+                 <li><a href="https://www.facebook.com/vncsls">Vince</a></li>
+                 <li><a href="https://www.facebook.com/christianjonel.cananes">Christian</a></li>
+                 <li><a href="https://www.facebook.com/momay.gemelga">Jomar</a></li>
+                 <li><a href="https://www.facebook.com/darvin.ducusin">Darvin</a></li>
+                 <li><a href="https://www.facebook.com/Winchesterbois">Chris</a></li>
+               </ul>
+             </div>
+
+             <div class="col-xs-6 col-md-3">
+               <h6>Quick Links</h6>
+               <ul class="footer-links">
+                 <li><a href="Aboutus.html">About</a></li>
+                 <li><a href="Contacts.html">Contact</a></li>
+                 <li>Contribute</li>
+                 <li>Privacy Policy</li>
+                 <li>Sitemap</li>
+               </ul>
+             </div>
+           </div>
+           <hr>
+         </div>
+         <div class="container">
+           <div class="row">
+             <div class="col-md-8 col-sm-6 col-xs-12">
+               <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+            <a>Legin</a>.
+               </p>
+             </div>
+           </div>
+         </div>
+    </footer>
+
+<!----------menu---------->
+      <script>
+          var MenuItems = document.getElementById("MenuItems");
+
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle() {
+              if (MenuItems.style.maxHeight == "0px")
+              {
+                  MenuItems.style.maxHeight = "200px";
+
+              }
+              else
+              {
+                  MenuItems.style.maxHeight = "0px";
+              }
+          }
+      </script>
+
+  </body>
+</html>
